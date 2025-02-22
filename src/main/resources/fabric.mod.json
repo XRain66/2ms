@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.xrain.2msmod1"
+			"com.xrain.TwoMSMod"
 		],
 		"client": [
-			"com.xrain.2msmod1Client"
+			"com.xrain.TwoMSModClient"
 		]
 	},
 	"mixins": [
