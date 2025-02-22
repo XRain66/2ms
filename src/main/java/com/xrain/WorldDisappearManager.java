@@ -32,7 +32,7 @@ public class WorldDisappearManager {
             isActive = true; // 触发消失逻辑
             centerPos = player.getWorld().getSpawnPos(); // 设置圆心为出生点
             player.sendMessage(Text.of("主世界开始消失！"), false);
-            2msmod1.LOGGER.info("Dragon defeated! World disappearing process started at " + centerPos);
+            TwoMSMod.LOGGER.info("Dragon defeated! World disappearing process started at " + centerPos);
         }
     }
 
@@ -76,7 +76,7 @@ public class WorldDisappearManager {
         }
 
         if (processedBlocks > 0) {
-            2msmod1.LOGGER.info("Cleared " + processedBlocks + " blocks in layer " + layer);
+            TwoMSMod.LOGGER.info("Cleared " + processedBlocks + " blocks in layer " + layer);
         }
     }
 
