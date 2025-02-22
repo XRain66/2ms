@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "2msmod1",
+	"version": "${version}",
+	"name": "2msmod1",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/2msmod1/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.xrain.2msmod1"
+		],
+		"client": [
+			"com.xrain.2msmod1Client"
+		]
+	},
+	"mixins": [
+		"2msmod1.mixins.json",
+		{
+			"config": "2msmod1.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
