@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class TwoMSMod implements ModInitializer {
-    public static final String MOD_ID = "2msmod1";
+    public static final String MOD_ID = "twomsmod";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
     private final WorldDisappearManager worldDisappearManager = WorldDisappearManager.getInstance();
 

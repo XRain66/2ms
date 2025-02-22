@@ -22,7 +22,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"2msmod1" {
+		"twomsmod" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

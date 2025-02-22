@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "2msmod1",
+	"id": "twomsmod",
 	"version": "${version}",
-	"name": "2msmod1",
+	"name": "Two MS Mod",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/2msmod1/icon.png",
+	"icon": "assets/twomsmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -23,9 +23,9 @@
 		]
 	},
 	"mixins": [
-		"2msmod1.mixins.json",
+		"twomsmod.mixins.json",
 		{
-			"config": "2msmod1.client.mixins.json",
+			"config": "twomsmod.client.mixins.json",
 			"environment": "client"
 		}
 	],
